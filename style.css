@@ -59,6 +59,22 @@ nav {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo:visited {
+  color: inherit;
+}
+
+.logo:focus {
+  outline: none;
 }
 
 .nav-link {
